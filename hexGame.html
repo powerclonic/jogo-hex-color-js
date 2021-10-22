@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hexGame.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="contentContainer">
+        <h1>Acerte o Hex Code!</h1>
+        <section class="colorContainer">
+            <div class="pointsContainer" style="font-size: 1.5rem;">Pontos: <span class="pointsDisplay">0</span></div>
+            <br>
+            <div class="colorDisplay"></div>
+        </section>
+        <div class="inputContainer">        
+                <label style="width: 100%; text-align: center;">
+                    <span style="font-size: 1.5rem;">Qual o hex?</span> 
+                    <br>
+                    <input type="text" class="hexInput" style="text-align: center" placeholder="Ex: 639CFF">
+                    <br>
+                    <button class="inputBtn">Verificar</button>
+                    <button class="changeColor">Mudar cor</button>
+                </label>
+        </div>
+    </section>
+
+    <script src="hexGame.js"></script>
+</body>
+
+</html>

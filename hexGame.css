@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #153452;
+}
+
+.contentContainer {
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2.5px;
+}
+
+.colorContainer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.colorDisplay {
+    display: block;
+    height: 250px;
+    width: 500px;
+    background-color: #F00;
+    border-radius: 25px;
+    border: 5px solid black;
+}
+
+.pointsContainer {
+    background-color: #639cff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFF;
+}
+
+.inputContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hexInput {
+    width: 500px;
+    height: 30px;
+    outline: 0;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.inputBtn, .changeColor {
+    background-color: #639cff;
+    border: 2.5px solid #639cff;
+    font-size: 1.25rem;
+    width: 150px;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px;
+    font-weight: 700;
+    color: #FFF;
+    transition: .5s;
+}
+
+.inputBtn:hover, .changeColor:hover {
+    color: #639cff;
+    background-color: #FFF;
+}
